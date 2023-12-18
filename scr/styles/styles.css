@@ -25,6 +25,10 @@
 
     to {
         backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+    -moz-backdrop-filter: blur(5px);
+    -o-backdrop-filter:blur(5px);
+    -ms-backdropfilter:blur(5px);
     }
 }
 
@@ -62,12 +66,17 @@ body {
 }
 
 .container {
-    
+    min-width: 320px;
+    max-width: 800px;
     border: 2px solid #def0ff;
     width: 480px;
     height: 480px;
     border-radius: 8px;
     backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    -moz-backdrop-filter: blur(5px);
+    -o-backdrop-filter:blur(5px);
+    -ms-backdropfilter:blur(5px);
     animation-name: animacao;
     animation-duration: 2s
 }
